@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label id="iname"></label>
+        <input type="text" id="fname"><br><br>
+        <label id="sname"></label>
+        <input type="text" id="gname"><br><br>
+        <label id="vname"></label>
+        <input type="text" id="hname"><br><br>
+        <label id="oname"></label>
+        <input type="text" id="mname">
+    </form>
+
+
+    <script>
+     var flabel=window.prompt("Enter your first label")
+     var slabel=window.prompt("Enter your second label")
+     var tlabel=window.prompt("Enter your third label")
+     var glabel=window.prompt("Enter your fourth label")
+     document.getElementById("iname").innerHTML=flabel
+     document.getElementById("sname").innerHTML=slabel
+     document.getElementById("vname").innerHTML=tlabel
+     document.getElementById("oname").innerHTML=glabel
+    </script>
+</body>
+</html>
